@@ -11,9 +11,9 @@
     <p v-text="messege"></p>
 
     <!-- 属性の値をデータに対応付ける -->
-    <a :href="url">ここからアクセス</a>
-    !-- 省略もできる -->
     <a v-bind:href="url">ここからアクセス</a>
+    <!-- 省略もできる -->
+    <a :href="url">ここからアクセス</a>
   </div>
 </template>
 
